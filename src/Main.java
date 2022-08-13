@@ -49,18 +49,18 @@ public class Main {
     public static void task4() {
         for ( int i =1; i<=30; i++){
            if(i%3==0&&i%5==0) {
-               System.out.println("ping pong");
+               System.out.println(i + ": ping pong");
            }
            if(i%3==0) {
-               System.out.println("ping");
+               System.out.println(i + ": ping");
 
            }
            else if(i%5==0) {
-               System.out.println("pong");
+               System.out.println(i + ": pong");
 
            }
            else
-               System.out.println("");
+               System.out.println(i + ": ");
         }
 
     }
